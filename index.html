@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Магазин туристического снаряжения и одежды">
+    <meta name="keywords" content="туриститеское снаряжение, туристическая одежда">
+    <title>Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="wrap">
+    <header>
+        <header class="header">
+            <div class="header__top">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img src="images/logo2.png" alt="Logo" class="header__logo-icon">
+                    </a>
+                </div>
+
+                <div class="header__right">
+                    <nav class="header__nav">
+                        <a href="#" class="header__link">Home</a>
+                        <a href="#" class="header__link">Product</a>
+                    </nav>
+                    <div class="header__cart">
+                        <a href="cart.html">
+                            <img src="images/cart.jpg" alt="Cart" class="header__cart-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header__slogan">
+                <h1 class="header__slogan-text">Our clothing, your comfort</h1>
+                <h2 class="header__slogan-text2">Our clothes are designed to provide maximum comfort in any environment, wherever you are</h2>
+            </div>
+        </header>
+    </header>
+    <div class="filters">
+        <div class="filters__content">
+            <div class="filters__checkboxes">
+            <label>
+                <input type="checkbox" name="gender" value="men"> MEN
+            </label>
+            <label>
+                <input type="checkbox" name="gender" value="women"> WOMEN
+            </label>
+            <label>
+                <input type="checkbox" name="gender" value="Children"> CHILDREN
+            </label>
+            </div>
+        <button class="filters__select-all">SEE ALL PRODUCTS</button>
+        </div>
+    </div>
+    <div class="separator">
+        <span>MEN</span>
+    </div>
+    <main class="products">
+        <div class="products__container">
+          <!-- Товарные блоки -->
+          <div class="product">
+            <select class="product__size">
+                <option>Select size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+            <img src="images/T-Shirt.JPG" alt="Shirt" class="product__image">
+            <div class="product__info">
+                <p class="product__description">T-Shirt</p>
+                <p class="product__price">5,00 EUR</p>
+            </div>
+          </div>
+          <div class="product">
+            <select class="product__size">
+                <option>Select size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+            <img src="images/pants.JPG" alt="Pants" class="product__image">
+            <div class="product__info">
+                <p class="product__description">PANTS FORCLAZ</p>
+                <p class="product__price">30,00 EUR</p>
+            </div>
+          </div>
+          <div class="product">
+            <select class="product__size">
+                <option>Select size</option>
+                <option>41</option>
+                <option>42</option>
+                <option>43</option>
+              </select>
+            <img src="images/shoes.JPG" alt="shoes" class="product__image">
+            <div class="product__info">
+                <p class="product__description">SHOES</p>
+                <p class="product__price">50,00 EUR</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    <div class="separator">
+        <span>Women</span>
+    </div>
+    <main class="products">
+        <div class="products__container">
+          <div class="product">
+            <select class="product__size">
+                <option>Select size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+            <img src="images/giacket.JPG" alt="Jacket" class="product__image">
+            <div class="product__info">
+                <p class="product__description">JACKET</p>
+                <p class="product__price">60,00 EUR</p>
+            </div>
+          </div>
+    
+          <div class="product">
+              <p class="product__description">10LITRI</p>
+            <img src="images/backpack.jpg" alt="Backpack" class="product__image">
+            <div class="product__info">
+                <p class="product__description">BACKPACK</p>
+                <p class="product__price">20,00 EUR</p>
+            </div>
+          </div>
+        </div>
+    </main>
+    <!-- Описание магазина -->
+    <div class="about-us">
+        <div class="about-us__content">
+        <h2 class="about-us__title">ABOUT US</h2>
+        <p>
+            Welcome to our store! We provide high-quality clothing for men, women, and kids. 
+            Our mission is to combine style, comfort, and affordability to ensure a great shopping experience.
+        </p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__left">
+          <h3 class="footer__title">TREKKING</h3>
+          <p class="footer__description">
+            Trekking is an outdoor activity of walking in natural environments, often in mountainous regions. It combines adventure and nature exploration, offering a refreshing escape from daily life.
+          </p>
+        </div>
+        <div class="footer__right">
+          <nav class="footer__links">
+            <a href="#credits">CREDITS</a>
+            <span>|</span>
+            <a href="#privacy">PRIVACY</a>
+            <span>|</span>
+            <a href="#about">ABOUT</a>
+            <span>|</span>
+            <a href="#contact">CONTACT</a>
+          </nav>
+        </div>
+      </footer>
+</div>
+</body>
+
+</html>
